@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="description" content="Club Deportivo Bami">
+    <meta name="keywords" content="HTML, CSS">
+
+    <title>Club Deportivo Bami</title>
+
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+</head>
+
+<body>
+
+
+
+    <div id="contenedorPagina">
+        <header>
+            <img src="imgs/LOGO.png">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="reservar.html">Reservar</a></li>
+                    <li><a href="#">Nosotros</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+        </header>
+
+
+        <a class="reservat">Está viendo horarios para reservar pista de basket</a>
+        <br><br><br><br>
+
+        <div class="formapa">
+            <form action="" method="get" name="fvalida">
+                <h1 class="form">Reservar</h1>
+                <ul>
+                    <li>
+                        <label for="nombre">Nombre</label>
+                        <input type="text" id="nombre" name="nombre" placeholder="Escribe aquí tu nombre">
+                    </li>
+                    <li>
+                        <label for="apellidos">Apellidos</label>
+                        <input type="text" id="apellidos" name="apellidos" placeholder="Escribe aquí tus apellidos">
+                    </li>
+                    <li>
+                        <label for="email">E-mail</label>
+                        <input type="text" id="email" name="email" placeholder="Tu correo electrónico">
+                    </li>
+                    <li>
+                        <label for="telefono">Telefono</label>
+                        <input type="text" id="telefono" name="telefono" maxlength="9" placeholder="Escribe aquí tu teléfono">
+                    </li>
+                    <li>
+                        <label for="msg">Mensaje</label>
+                        <textarea id="msg" name="mensaje" placeholder="Escriba aquí el día y hora de reserva."></textarea>
+                    </li>
+                    <li class="btn">
+                        <button type="submit" onclick="valida_envia2()">Enviar</button>
+                    </li>
+                </ul>
+            </form>
+            <table style="margin: 0% auto;" align="right" border="4" cellpadding="10" cellspacing="20">
+                <tr>
+                    <th bgcolor="grey">Hora</th>
+                    <th bgcolor="grey">Lunes</th>
+                    <th bgcolor="grey">Martes</th>
+                    <th bgcolor="grey">Mi&eacute;rcoles</th>
+                    <th bgcolor="grey">Jueves</th>
+                    <th bgcolor="grey">Viernes</th>
+                    <th bgcolor="grey">S&aacute;bado</th>
+                    <th bgcolor="grey">Domingo</th>
+                </tr>
+                <tr>
+                    <td style="background-color: white;">12-13</td>
+                    <td style="background-color: green;"></td>
+                    <td style="background-color: red;"></td>
+                    <td style="background-color: green;"></td>
+                    <td style="background-color: green;"></td>
+                    <td style="background-color: green;"></td>
+                    <td style="background-color: green;"></td>
+                    <td style="background-color: green;"></td>
+                </tr>
+                <tr>
+                    <td style="background-color: white;">13-14</td>
+                    <td style="background-color: red;"></td>
+                    <td style="background-color: green;"></td>
+                    <td style="background-color: red;"></td>
+                    <td style="background-color: red;"></td>
+                    <td style="background-color: green;"></td>
+                    <td style="background-color: green;"></td>
+                    <td style="background-color: green;"></td>
+                </tr>
+                <tr>
+                    <td style="background-color: white;">17-18</td>
+                    <td style="background-color: green;"></td>
+                    <td style="background-color: green;"></td>
+                    <td style="background-color: green;"></td>
+                    <td style="background-color: green;"></td>
+                    <td style="background-color: red;"></td>
+                    <td style="background-color: green;"></td>
+                    <td style="background-color: red;"></td>
+                </tr>
+                <tr>
+                    <td style="background-color: white;">18-19</td>
+                    <td style="background-color: green;"></td>
+                    <td style="background-color: red;"></td>
+                    <td style="background-color: green;"></td>
+                    <td style="background-color: green;"></td>
+                    <td style="background-color: red;"></td>
+                    <td style="background-color: green;"></td>
+                    <td style="background-color: green;"></td>
+                </tr>
+                <tr>
+                    <td style="background-color: white;">19-20</td>
+                    <td style="background-color: green;"></td>
+                    <td style="background-color: red;"></td>
+                    <td style="background-color: green;"></td>
+                    <td style="background-color: green;"></td>
+                    <td style="background-color: red;"></td>
+                    <td style="background-color: red;"></td>
+                    <td style="background-color: red;"></td>
+                </tr>
+                <tr>
+                    <td style="background-color: white;">20-21</td>
+                    <td style="background-color: green;"></td>
+                    <td style="background-color: green;"></td>
+                    <td style="background-color: green;"></td>
+                    <td style="background-color: green;"></td>
+                    <td style="background-color: red;"></td>
+                    <td style="background-color: green;"></td>
+                    <td style="background-color: red;"></td>
+                </tr>
+                <tr>
+                    <td style="background-color: white;">21-22</td>
+                    <td style="background-color: green;"></td>
+                    <td style="background-color: green;"></td>
+                    <td style="background-color: green;"></td>
+                    <td style="background-color: green;"></td>
+                    <td style="background-color: red;"></td>
+                    <td style="background-color: green;"></td>
+                    <td style="background-color: red;"></td>
+                </tr>
+            </table>
+        </div>
+
+
+
+
+
+
+        <footer id="footer" class="footersocial" role="contentinfo">
+            <div class="redes">
+                <ul>
+                    <li>
+                        <a href="#" target="_blank">
+                            <img src="imgs/twitter.png" alt="Twitter Logo" class="twitter-icon"></a>
+                    </li>
+                    <li>
+                        <a href="#" target="_blank">
+                            <img src="imgs/instagram.png" alt="Instagram Logo" class="instagram-icon"></a>
+                    </li>
+                    <li>
+                        <a href="#" target="_blank">
+                            <img src="imgs/facebook.png" alt="Facebook Logo" class="facebook-icon"></a>
+                    </li>
+                    <li>
+                        <a href="#" target="_blank">
+                            <img src="imgs/youtube.png" alt="Youtube Logo" class="youtube-icon"></a>
+                    </li>
+                </ul>
+            </div>
+
+            <nav class="footer-nav" role="navigation">
+                <p>Copyright &copy; 2021 - Hansis FC. Todos los derechos reservados.</p>
+            </nav>
+        </footer>
+    </div>
+    <script type="text/javascript" src="js/validacion.js"></script>
+</body>
+
+</html>

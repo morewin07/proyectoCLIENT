@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="description" content="Club Deportivo Bami">
+    <meta name="keywords" content="HTML, CSS">
+
+    <title>Club Deportivo Bami</title>
+
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+</head>
+
+<body>
+
+
+
+    <div id="contenedorPagina">
+        <header>
+            <img src="imgs/LOGO.png">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="reservar.html">Reservar</a></li>
+                    <li><a href="#">Nosotros</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <div class="formapa">
+            <form action="" method="get" name="fvalida">
+                <h1 class="form">Contacto</h1>
+                <ul>
+                    <li>
+                        <label for="nombre">Nombre</label>
+                        <input type="text" id="nombre" name="nombre" placeholder="Escribe aquí tu nombre">
+                    </li>
+                    <li>
+                        <label for="apellidos">Apellidos</label>
+                        <input type="text" id="apellidos" name="apellidos" placeholder="Escribe aquí tus apellidos">
+                    </li>
+                    <li>
+                        <label for="email">E-mail</label>
+                        <input type="text" id="email" name="email" placeholder="Tu correo electrónico">
+                    </li>
+                    <li>
+                        <label for="telefono">Telefono</label>
+                        <input type="text" id="telefono" name="telefono" maxlength="9" placeholder="Escribe aquí tu teléfono">
+                    </li>
+                    <li>
+                        <label for="msg">Mensaje</label>
+                        <textarea id="msg" name="mensaje" placeholder="Escribe aquí tu mensaje"></textarea>
+                    </li>
+                    <li class="btn">
+                        <button type="submit" onclick="valida_envia()">Enviar</button>
+                    </li>
+                </ul>
+            </form>
+            <iframe class="mapa" style="margin: 0% auto;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3171.2783958077457!2d-5.9779419848333495!3d37.35958904371064!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd126e7da3cde365%3A0x6bb5191385384769!2sCentro%20Deportivo%20Bami!5e0!3m2!1ses!2ses!4v1638384012083!5m2!1ses!2ses
+            " width="600 " height="450 " style="border:0; " allowfullscreen=" " loading="lazy " align="right"></iframe>
+        </div>
+        <a style="margin-left: 680px;">Teléfono: 698765432</a>
+        <br>
+        <br>
+        <a style="margin-left: 680px;" href="mailto:tomasmoreno.21@campuscamara.es">E-mail: tomasmoreno.21@campuscamara.es</a>
+
+
+
+
+
+        <footer id="footer" class="footersocial" role="contentinfo">
+            <div class="redes">
+                <ul>
+                    <li>
+                        <a href="#" target="_blank">
+                            <img src="imgs/twitter.png" alt="Twitter Logo" class="twitter-icon"></a>
+                    </li>
+                    <li>
+                        <a href="#" target="_blank">
+                            <img src="imgs/instagram.png" alt="Instagram Logo" class="instagram-icon"></a>
+                    </li>
+                    <li>
+                        <a href="#" target="_blank">
+                            <img src="imgs/facebook.png" alt="Facebook Logo" class="facebook-icon"></a>
+                    </li>
+                    <li>
+                        <a href="#" target="_blank">
+                            <img src="imgs/youtube.png" alt="Youtube Logo" class="youtube-icon"></a>
+                    </li>
+                </ul>
+            </div>
+
+            <nav class="footer-nav" role="navigation">
+                <p>Copyright &copy; 2021 - Hansis FC. Todos los derechos reservados.</p>
+            </nav>
+        </footer>
+    </div>
+    <script type="text/javascript" src="js/validacion.js"></script>
+</body>
+
+</html>

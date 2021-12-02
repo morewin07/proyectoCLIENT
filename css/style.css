@@ -1,0 +1,256 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header img {
+    height: 80px;
+    margin-left: 40px;
+}
+
+body {
+    background-image: url('https://cdn.pixabay.com/photo/2018/06/24/08/01/dark-background-3494082_960_720.jpg');
+    background-size: cover;
+    font-family: sans-serif;
+    margin-top: 80px;
+    padding: 30px;
+}
+
+main {
+    color: white;
+}
+
+header {
+    background-color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 0 25px 0 black;
+}
+
+header * {
+    display: inline;
+}
+
+header li {
+    margin: 20px;
+}
+
+header li a {
+    color: black;
+    text-decoration: none;
+}
+
+#contenedorPagina {
+    margin: 0 auto;
+    height: 85%;
+}
+
+
+/*Footer*/
+
+.footersocial {
+    background-color: #838383;
+    text-align: center;
+    margin: 10px 0;
+    padding: 10px 0;
+    width: 100%;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    margin-top: 100px;
+}
+
+#redes {
+    text-align: center;
+}
+
+
+/*Iconos de redes sociales*/
+
+.redes {
+    text-align: center;
+}
+
+.redes ul li {
+    display: inline;
+    margin: 0 5px;
+}
+
+.twitter-icon,
+.facebook-icon,
+.instagram-icon,
+.linkedin-icon,
+.googleplus-icon,
+.youtube-icon,
+.foursquare-icon {
+    margin-top: .625em;
+    width: 40px;
+    height: 40px;
+    opacity: .6;
+    filter: alpha(opacity=60);
+    border-radius: 25px;
+}
+
+.twitter-icon:hover,
+.facebook-icon:hover,
+.instagram-icon:hover,
+.linkedin-icon:hover,
+.googleplus-icon:hover,
+.youtube-icon:hover,
+.foursquare-icon:hover {
+    opacity: 1.0;
+    filter: alpha(opacity=100);
+}
+
+.footer-nav p {
+    text-align: center;
+}
+
+div.cajamensaje {
+    margin: 0 auto 0 auto;
+    padding: 5px;
+    text-align: center;
+    width: 98%;
+    border-color: #dbdbdb;
+    margin-top: 15px;
+}
+
+div.cajamensaje img:hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+div.cajaizqcentro {
+    float: left;
+    margin: 0;
+    padding: 0;
+    width: 33%;
+    border-style: none;
+}
+
+div.cajadcha {
+    float: right;
+    margin: 0;
+    padding: 0;
+    width: 34%;
+}
+
+img.img2 {
+    height: 250px;
+    width: 250px;
+    object-fit: cover;
+}
+
+div.space-line {
+    clear: both;
+    margin: 0;
+    padding: 0;
+    width: auto;
+}
+
+h5.mensaje {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    width: auto;
+    vertical-align: top;
+}
+
+
+/*----------- CAJA ----------- */
+
+#caja {
+    font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+    background: #889ccf;
+    margin: 0 0 25px;
+    overflow: hidden;
+    padding: 20px;
+    border-radius: 35px 0px 35px 0px;
+    -moz-border-radius: 35px 0px 35px 0px;
+    -webkit-border-radius: 35px 0px 35px 0px;
+    border: 2px solid #5878ca;
+}
+
+a {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-large;
+}
+
+
+/*----------- FORMULARIO ----------- */
+
+form {
+    /* Centramos el formulario */
+    width: 300px;
+    /* Sin ancho no podemos centrar el formulario */
+    background-color: white;
+    /* Color blanco para el formulario */
+    padding: 2px;
+    /* separamos los bordes del form del resto de elementos */
+    border-radius: 10px;
+    /* Redondeamos los bordes del form */
+}
+
+button {
+    width: 40%;
+    margin-left: 15%;
+    background-color: rgb(96, 160, 219);
+    border-radius: 10px;
+}
+
+h1.form {
+    margin-left: 15%;
+    color: rgb(0, 68, 255);
+}
+
+input,
+textarea {
+    padding: 5px;
+    /* Separamos la letra del interior (contenido) en los inputs de los bordes */
+}
+
+label {
+    display: block;
+    /* Ahora los inputs quedan debajo de los label */
+    padding: 8px;
+    /* Separando espacios internos */
+}
+
+li {
+    margin: 10px;
+    /* dando márgenes a todos los elementos de la lista */
+}
+
+.btn {
+    margin-top: 20px;
+    /* Damos un margen individual para el contenedor del botón */
+}
+
+
+/* Quitamos los puntos de la lista del formulario */
+
+ul {
+    list-style: none;
+}
+
+
+/* Posicionamos el formulario y el mapa */
+
+div.formapa {
+    margin-left: 10%;
+    display: flex;
+}
+
+a.reservat {
+    margin-left: 31%;
+}
